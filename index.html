@@ -40,6 +40,7 @@
     .time{display:inline-block;min-width:78px;color:var(--green);font-weight:700}
     .ticket{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:start}
     .price{font-weight:800;color:var(--gold);white-space:nowrap}
+    .bought{display:inline-block;margin:0 0 10px;padding:5px 9px;border-radius:999px;background:#dff1e5;color:#24513c;font-size:13px;font-weight:800}
     .btn{display:inline-block;margin-top:12px;text-decoration:none;background:var(--green);color:white;padding:9px 14px;border-radius:10px;font-weight:650}
     .btn.secondary{background:transparent;color:var(--green);border:1px solid #9bb1a5}
     .note{margin-top:12px;padding:12px 14px;border-radius:12px;background:var(--green2);color:#28483a;font-size:14px}
@@ -110,8 +111,8 @@
         <div class="date">BARCELONA · DAY 2 · 11/29 周日</div>
         <h3>高迪建筑日 · 豪宅 → 公寓 → 公园</h3>
         <ul class="timeline">
-          <li><span class="time">09:00</span>Casa Batlló 巴特罗之家</li>
-          <li><span class="time">10:45</span>La Pedrera（Casa Milà）米拉之家</li>
+          <li><span class="time">09:00</span>Casa Batlló 巴特罗之家 · ✅ 已购票</li>
+          <li><span class="time">10:45</span>La Pedrera（Casa Milà）米拉之家 · ✅ 已购票</li>
           <li><span class="time">13:00</span>午餐 / 休息</li>
           <li><span class="time">15:00</span>Park Güell 古埃尔公园</li>
           <li><span class="time">傍晚</span>Gràcia 格拉西亚区散步、晚餐</li>
@@ -123,7 +124,7 @@
         <div class="date">BARCELONA · DAY 3 · 11/30 周一</div>
         <h3>圣家堂 · Sant Pau · 航海与地中海</h3>
         <ul class="timeline">
-          <li><span class="time">09:00</span>Sagrada Família 圣家堂</li>
+          <li><span class="time">09:15</span>Sagrada Família 圣家堂入场 · 09:30 塔楼 · ✅ 已购票</li>
           <li><span class="time">11:00+</span>步行至 Recinte Modernista de Sant Pau 圣保罗现代主义建筑群</li>
           <li><span class="time">14:30</span>Museu Marítim de Barcelona 巴塞罗那航海博物馆</li>
           <li><span class="time">16:10+</span>Port Vell 老港 → Barceloneta 巴塞罗内塔海滩</li>
@@ -136,8 +137,8 @@
         <div class="date">BARCELONA · DAY 4 · 12/1 周二</div>
         <h3>音乐宫 · Picasso · 老城 · Montjuïc</h3>
         <ul class="timeline">
-          <li><span class="time">09:00+</span>Palau de la Música Catalana 加泰罗尼亚音乐宫最早可售场</li>
-          <li><span class="time">10:30+</span>Museu Picasso 毕加索博物馆（随音乐宫顺延）</li>
+          <li><span class="time">09:30</span>Palau de la Música Catalana 加泰罗尼亚音乐宫 · ✅ 已购票</li>
+          <li><span class="time">11:00</span>Museu Picasso 毕加索博物馆 · ✅ 已购票</li>
           <li><span class="time">中午</span>El Born 波恩区 → Gothic Quarter 哥特区 → La Boqueria 波盖利亚市场</li>
           <li><span class="time">15:30+</span>Telefèric de Montjuïc 蒙特惠奇山空中缆车</li>
           <li><span class="time">16:00+</span>Castell de Montjuïc 蒙特惠奇城堡 → 日落</li>
@@ -172,7 +173,7 @@
         <div class="date">ROME · DAY 2 · 12/3 周四</div>
         <h3>梵蒂冈 · 从拉斐尔到米开朗基罗</h3>
         <ul class="timeline">
-          <li><span class="time">08:00</span>Vatican Museums 梵蒂冈博物馆第一批</li>
+          <li><span class="time">08:00</span>Vatican Museums 梵蒂冈博物馆 · ✅ 已购票</li>
           <li><span class="time">上午</span>Sistine Chapel 西斯廷礼拜堂</li>
           <li><span class="time">中午</span>St Peter’s Basilica 圣彼得大教堂</li>
           <li><span class="time">下午</span>Castel Sant’Angelo 圣天使堡外围 / 圣天使桥 → 老城自由补逛</li>
@@ -279,6 +280,7 @@
       <article class="card ticket">
         <div>
           <h3>2. Casa Batlló 巴特罗之家</h3>
+          <span class="bought">✅ 已购买 · 11/29 09:00</span>
           <div class="note"><strong>建议购买：</strong>11/29 周日 <strong>09:00</strong>。<br><strong>票型：</strong>General Visit – Silver 银色票。</div>
           <p>Silver 票包含你们想看的屋顶区域。09:00 第一站可以避开后面的人流，也方便约 10:45 接着去米拉之家。</p>
           <a class="btn" href="https://www.casabatllo.es/en/online-tickets/" target="_blank" rel="noopener">官方购票</a>
@@ -289,6 +291,7 @@
       <article class="card ticket">
         <div>
           <h3>3. La Pedrera（Casa Milà）米拉之家</h3>
+          <span class="bought">✅ 已购买 · 11/29 10:45</span>
           <div class="note"><strong>建议购买：</strong>11/29 周日 <strong>10:45 左右</strong>。<br><strong>买法：</strong>和 12/1 的加泰罗尼亚音乐宫一起买官方联票。</div>
           <p>本次参观米拉之家的庭院、公寓、阁楼和屋顶。官方的 <strong>La Pedrera + Palau de la Música Catalana 米拉之家 + 加泰罗尼亚音乐宫联票</strong>允许两个景点分别选择不同日期和时间，正好适配你们的路线。</p>
           <a class="btn" href="https://www.lapedrera.com/en/tickets/la-pedrera-palau-de-la-musica-catalana/" target="_blank" rel="noopener">官方联票</a>
@@ -309,7 +312,8 @@
       <article class="card ticket">
         <div>
           <h3>5. Sagrada Família 圣家堂</h3>
-          <div class="note"><strong>建议购买：</strong>11/30 周一 <strong>09:00</strong>。<br><strong>票型：</strong>本次建议普通参观票；如果想额外体验塔楼，再选择含塔票。</div>
+          <span class="bought">✅ 已购买 · 11/30 09:15 入场 / 09:30 塔楼</span>
+          <div class="note"><strong>实际已购：</strong>11/30 周一 <strong>09:15 入场，09:30 塔楼</strong>。<br><strong>票型：</strong>圣家堂 + 塔楼成人票。</div>
           <p>09:00 入场后给圣家堂留约 1.5–2 小时，再沿 Avinguda de Gaudí 高迪大道步行前往圣保罗现代主义建筑群。官方 App / 语音导览支持中文。</p>
           <a class="btn" href="https://sagradafamilia.org/en/tickets" target="_blank" rel="noopener">官方购票</a>
         </div>
@@ -339,7 +343,8 @@
       <article class="card ticket">
         <div>
           <h3>8. Palau de la Música Catalana 加泰罗尼亚音乐宫</h3>
-          <div class="note"><strong>建议购买：</strong>12/1 周二 <strong>当天最早可售场</strong>，优先 09:00；如果最早只有 09:30，就选 09:30。<br><strong>买法：</strong>和 11/29 的米拉之家共用 €42 官方联票。</div>
+          <span class="bought">✅ 已购买 · 12/1 09:30</span>
+          <div class="note"><strong>实际已购：</strong>12/1 周二 <strong>09:30</strong>。<br><strong>买法：</strong>与 11/29 的米拉之家使用官方联票。</div>
           <p>先锁音乐宫时间，再决定毕加索博物馆的入场时间。这里的重点是现代主义音乐厅内部、彩色玻璃天窗和舞台装饰。</p>
           <a class="btn secondary" href="https://www.palaumusica.cat/en/palau-and-la-pedrera_1463511" target="_blank" rel="noopener">联票说明</a>
         </div>
@@ -349,7 +354,8 @@
       <article class="card ticket">
         <div>
           <h3>9. Museu Picasso 毕加索博物馆</h3>
-          <div class="note"><strong>建议购买：</strong>12/1 周二。<br><strong>时间：</strong>音乐宫如果 09:00 入场，目标约 <strong>10:30</strong>；如果音乐宫 09:30 入场，毕加索顺延到约 <strong>11:00</strong>。</div>
+          <span class="bought">✅ 已购买 · 12/1 11:00</span>
+          <div class="note"><strong>实际已购：</strong>12/1 周二 <strong>11:00</strong>。音乐宫 09:30 结束后衔接这个时段。</div>
           <p>建议购买 Collection + Temporary Exhibitions 馆藏 + 临时展览票。它是定时票，所以一定等音乐宫时间确定后再买。</p>
           <a class="btn" href="https://museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours" target="_blank" rel="noopener">官方购票</a>
         </div>
@@ -382,13 +388,13 @@
     <h2>现在先买什么</h2>
     <div class="card">
       <div class="priority">
-        <span class="now">① Sagrada Família</span>
-        <span class="now">② Casa Batlló Silver</span>
-        <span class="now">③ Park Güell</span>
-        <span class="now">④ 米拉之家 + 音乐宫联票</span>
-        <span>⑥ Picasso Museum</span>
+        <span class="now">✅ 圣家堂 已购</span>
+        <span class="now">✅ 巴特罗之家 已购</span>
+        <span class="now">✅ 米拉之家 + 音乐宫 已购</span>
+        <span class="now">✅ 毕加索博物馆 已购</span>
+        <span>⏳ 古埃尔公园 待购</span>
       </div>
-      <p>米拉之家与音乐宫建议用 €42 官方联票，并分别选择 11/29 与 12/1 的场次；音乐宫时间确定后，再往后排 Picasso。Sant Pau 可以一起买；Tibidabo、航海博物馆、Montjuïc 缆车和城堡都可以继续保持弹性。</p>
+      <p>目前巴塞罗那已购：圣家堂、巴特罗之家、米拉之家、加泰罗尼亚音乐宫、毕加索博物馆。下一张优先处理古埃尔公园 11/29 15:00；Sant Pau 可稍后买，Tibidabo、航海博物馆、Montjuïc 缆车和城堡继续保留弹性。</p>
       <div class="note warn">所有价格都是当前参考价，动态定价和余票会变化；最终以官方结算页面为准。</div>
     </div>
   </section>
@@ -432,7 +438,8 @@
 
       <article class="card ticket">
         <div>
-          <h3>2. Vatican Museums</h3>
+          <h3>2. Vatican Museums 梵蒂冈博物馆</h3>
+          <span class="bought">✅ 已购买 · 12/3 08:00</span>
           <p>目标 12/3 08:00 第一批。只用梵蒂冈博物馆官方票务入口，不需要第三方“免排队”套票。</p>
           <a class="btn" href="https://tickets.museivaticani.va/home" target="_blank" rel="noopener">官方购票</a>
         </div>
@@ -502,7 +509,7 @@
     <div class="card" style="margin-top:18px">
       <div class="priority">
         <span class="now">① Last Supper · 现在查</span>
-        <span class="now">② Vatican Museums</span>
+        <span class="now">✅ Vatican Museums 已购</span>
         <span>③ Colosseum · 进入官方开放窗口后买</span>
         <span>④ Pantheon</span>
         <span>⑤ San Clemente</span>
@@ -519,8 +526,9 @@
     <div class="grid">
       <article class="card">
         <h3>Barcelona 巴塞罗那</h3>
-        <p><strong>现在锁：</strong>Sagrada Família 圣家堂 €26；Casa Batlló 巴特罗之家 Silver 当前约 €40；Park Güell 古埃尔公园 €18；La Pedrera 米拉之家 + Palau de la Música Catalana 加泰罗尼亚音乐宫联票 €42。</p>
-        <p><strong>随后买：</strong>Sant Pau 圣保罗现代主义建筑群 €18；Museu Picasso 毕加索博物馆线上 €12。</p>
+        <p><strong>✅ 已购买：</strong>Sagrada Família 圣家堂；Casa Batlló 巴特罗之家；La Pedrera 米拉之家；Palau de la Música Catalana 加泰罗尼亚音乐宫；Museu Picasso 毕加索博物馆。</p>
+        <p><strong>⏳ 下一张优先：</strong>Park Güell 古埃尔公园 11/29 15:00。</p>
+        <p><strong>随后买：</strong>Sant Pau 圣保罗现代主义建筑群 €18。</p>
         <p><strong>临近天气再买：</strong>Cuca de Llum 蒂比达博登山缆车 €13.50；Telefèric de Montjuïc 蒙特惠奇山空中缆车 €17.10。</p>
         <p><strong>灵活：</strong>Museu Marítim 巴塞罗那航海博物馆 €10；Castell de Montjuïc 蒙特惠奇城堡 €12。</p>
         <div class="note"><strong>单人小计：约 €208.60。</strong>其中 Casa Batlló 属动态定价，最终以结算页为准。</div>
@@ -528,7 +536,7 @@
 
       <article class="card">
         <h3>Rome 罗马</h3>
-        <p><strong>Vatican Museums 梵蒂冈博物馆：</strong>官方线上预约 €25，目标 12/3 08:00。</p>
+        <p><strong>✅ Vatican Museums 梵蒂冈博物馆：</strong>已购买，12/3 08:00。</p>
         <p><strong>Colosseum 罗马斗兽场 + Roman Forum 古罗马广场 + Palatine Hill 帕拉蒂尼山：</strong>€18，12/2 的票在提前 30 天窗口开放后购买，目标约 13:00。</p>
         <p><strong>Fontana di Trevi 特莱维喷泉内圈：</strong>€2，开放票，可提前买也可现场刷卡。</p>
         <p><strong>Pantheon 万神殿：</strong>€7，12 月票预计在 11 月中旬开放。</p>
